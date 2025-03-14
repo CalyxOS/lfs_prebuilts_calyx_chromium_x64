@@ -33,6 +33,24 @@
       "message": "Have not had a chance to try, but I suspect it does not work, because it is not referenced anywhere, has no Android.bp.\n\nFor AML we had this pattern:\n```\narch: {\n    arm64: {\n        // ... something.apk\n    },\n    x86_64: {\n        // ... x86_64/something.apk\n    },\n},\n```\n\nWe could do that if we moved things around. Otherwise I am not sure how without using different package names and referring to different product packages for arm64 vs x86_64.",
       "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e58e660_522f984e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-14T12:37:23Z",
+      "side": 1,
+      "message": "Not sure how to best handle this. For testing, `mv ../arm64/Android.bp .` may work.\n\n`external/chromium-webview/Android.bp` is another relevant reference here, following the same pattern.",
+      "parentUuid": "3ca55da4_6e0b2888",
+      "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
