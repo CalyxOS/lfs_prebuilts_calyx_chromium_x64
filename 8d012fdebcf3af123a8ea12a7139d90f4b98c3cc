@@ -16,6 +16,23 @@
       "message": "lmk if this works and I\u0027ll do a prod server build, and then we do x86 for every major release for example (so next would be 135)\n\nA smoke test / maybe also atest might be enough",
       "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ca55da4_6e0b2888",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-03-14T12:00:04Z",
+      "side": 1,
+      "message": "Have not had a chance to try, but I suspect it does not work, because it is not referenced anywhere, has no Android.bp.\n\nFor AML we had this pattern:\n```\narch: {\n    arm64: {\n        // ... something.apk\n    },\n    x86_64: {\n        // ... x86_64/something.apk\n    },\n},\n```\n\nWe could do that if we moved things around. Otherwise I am not sure how without using different package names and referring to different product packages for arm64 vs x86_64.",
+      "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
