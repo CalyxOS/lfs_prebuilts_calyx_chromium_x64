@@ -51,6 +51,23 @@
       "parentUuid": "3ca55da4_6e0b2888",
       "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bd9de31_17a104d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-03-27T13:31:14Z",
+      "side": 1,
+      "message": "These are arm64 somehow...",
+      "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
