@@ -86,6 +86,24 @@
       "parentUuid": "4bd9de31_17a104d3",
       "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "645c15de_48fc9ccc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-03-27T22:00:32Z",
+      "side": 1,
+      "message": "It works to place Android.bp in prebuilts/calyx/chromium and have it refer to the APKs in arm64/ and x64/ (could just use the dotdotAndroid.bp I put in here now).\n\nIf we didn\u0027t want to have a prebuilts/calyx/chromium repo solely to house the Android.bp, one pattern we talked about for AML treated arm64 as the \"primary\" repo which had the binaries and the blueprint, and then x86_64 was a separate repo underneath it. That would look like this, if adapted for this situation:\n\n```\nprebuilts/calyx/chromium/   # formerly prebuilts/calyx/chromium/arm64/\n  Android.bp   # which references x86_64/[...].apk for that arch\n  SystemWebViewShell.apk\n  TrichromeLibrary6432.apk\n  TrichromeWebView6432.apk\n  universal.apk\n\nprebuilts/calyx/chromium/x86_64/   # subdir of above\n  SystemWebViewShell.apk\n  TrichromeLibrary6432.apk\n  TrichromeWebView6432.apk\n  universal.apk \n```\n\n(Side note, maybe SystemWebViewShell.apk and universal.apk wouldn\u0027t differ between variants.)",
+      "parentUuid": "0e58e660_522f984e",
+      "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
