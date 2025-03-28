@@ -104,6 +104,24 @@
       "parentUuid": "0e58e660_522f984e",
       "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9cdea55_e37e62df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-28T00:09:39Z",
+      "side": 1,
+      "message": "We can just have one chromium repo too to keep things easier - the split pre-lfs was more to deal with size.\n\nEven a lfs_prebuilts_calyx won\u0027t have any size issues anymore due to the LFS setup.",
+      "parentUuid": "645c15de_48fc9ccc",
+      "revId": "8d012fdebcf3af123a8ea12a7139d90f4b98c3cc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
