@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "604d10b2_e568470d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-02T15:46:01Z",
+      "side": 1,
+      "message": "prod build: Same step / commands as the usual arm64 builds, with an editing of `target_cpu` in `args.gn` before the build.",
+      "revId": "ac2e54c7d88cd43fafb7609d822aed8de29f66cf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
