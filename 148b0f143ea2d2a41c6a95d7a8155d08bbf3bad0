@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "efe300b2_a3bbbceb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-15T16:37:19Z",
+      "side": 1,
+      "message": "We\u0027re already shipping this, 38195: 135.0.7049.79 | https://review.calyxos.org/c/CalyxOS/lfs_prebuilts_calyx_chromium_arm64/+/38195\n\nWe can do .80, or see if there\u0027s an upstream release in the next day or two that we can rebase on top of.",
+      "revId": "148b0f143ea2d2a41c6a95d7a8155d08bbf3bad0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "5ca1be4c_0b065c20",
