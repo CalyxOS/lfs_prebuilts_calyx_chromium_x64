@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a72d1509_31ce749d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-01T15:30:01Z",
+      "side": 1,
+      "message": "not production\n\nThis PS1 is [source PS3](https://review.calyxos.org/c/CalyxOS/platform_external_calyx_chromium/+/38771/3).",
+      "revId": "5481c8b0a71de542d91096fedef3ff9236dd0177",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
